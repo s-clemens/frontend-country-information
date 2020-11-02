@@ -1,0 +1,105 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/e6/8c/22/e68c2253c9a41fb1287810a1d1ed14cc.jpg");
+    height: 100%;
+    width: 100%;
+
+    font-family: Arial, serif;
+}
+
+h1{
+    font-size: 1em;
+    margin: 10px auto 0;
+    /*color: ;*/
+}
+
+#information-text{
+    margin: 10px auto 0;
+    font-size: 0.8em;
+}
+
+#container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /*overflow: hidden;*/
+}
+
+#userInterfaceContainer{
+    height: auto;
+    width: 30vw;
+    position: absolute;
+    top: 50Vh;
+    margin-top: -40vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 2px black solid;
+    box-shadow: 5px 5px rgba(0,0,0,0.1);
+}
+
+
+
+#formId{
+    margin: 15px auto 0;
+    width: 40%;
+    align-items: center;
+}
+
+#country-entry{
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#search-button{
+    margin: 0 auto 0;
+    width: 8vw;
+    align-items: center;
+}
+
+#warning{
+    font-size: 0.5em;
+    color: red;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#answer-box{
+    background-color: white;
+    height: 30%;
+    border-radius: 5px;
+    margin: 15px;
+    border: 1px solid black;
+}
+
+#result{
+
+    margin: 0 auto 0;
+    color: black;
+    font-size: 0.8em;
+    padding: 5px;
+    /*text-align: center;*/
+    white-space: pre-line;
+}
+
+#flag-image{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+}
+
+#country-title{
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+
